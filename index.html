@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UCAN AI Course Evaluator</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><h1>UCAN AI Course Evaluator</h1><p>Evaluación inteligente de cursos en línea</p></header>
+<main>
+<section class="card">
+<h2>1. Configuración del curso</h2>
+<form id="form">
+<div class="grid">
+<label>Código<input name="course_code" required placeholder="PSYC 7050"></label>
+<label>Curso<input name="course_name" required placeholder="Nombre del curso"></label>
+<label>Créditos<input name="credits" type="number" step=".5"></label>
+<label>Estilo<select name="citation_style"><option>APA 7</option><option>MLA 9</option><option>Chicago</option></select></label>
+</div>
+<label>Descripción oficial<textarea name="course_description" rows="4"></textarea></label>
+<fieldset><legend>Marcos de evaluación</legend>
+<label><input type="checkbox" name="framework" value="institutional" checked> VAEL/UIPR</label>
+<label><input type="checkbox" name="framework" value="qm" checked> Quality Matters (alto nivel)</label>
+<label><input type="checkbox" name="framework" value="udl" checked> DUA/UDL</label>
+<label><input type="checkbox" name="framework" value="5e" checked> Modelo 5E</label>
+<label><input type="checkbox" name="framework" value="bloom" checked> Bloom</label>
+<label><input type="checkbox" name="framework" value="webb" checked> Norman Webb DOK</label>
+<label><input type="checkbox" name="framework" value="citations" checked> Citas y referencias</label>
+<label><input type="checkbox" name="framework" value="accessibility" checked> Accesibilidad</label>
+<label><input type="checkbox" name="framework" value="copyright" checked> Derechos de autor</label>
+</fieldset>
+<div class="note">Quality Matters se evalúa por categorías de alto nivel. La rúbrica oficial completa debe añadirse solamente si la institución posee autorización/licencia.</div>
+<label class="upload">Archivos del curso<input id="files" name="files" type="file" multiple accept=".pdf,.docx,.pptx,.xlsx,.txt,.md,.html,.csv"></label>
+<div id="selected"></div>
+<button>Evaluar curso con IA</button>
+</form>
+</section>
+<section class="card">
+<div class="head"><h2>2. Informe</h2><div><button id="json" disabled>JSON</button><button id="word" disabled>Word</button></div></div>
+<div id="status">Suba los archivos y presione <strong>Evaluar curso con IA</strong>.</div>
+<article id="report"></article>
+</section>
+</main>
+<footer>La certificación final requiere revisión humana y validaciones técnicas institucionales.</footer>
+<script src="app.js"></script>
+</body></html>
