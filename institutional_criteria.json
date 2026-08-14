@@ -1,0 +1,46 @@
+{
+  "source": "VAEL/UIPR uploaded institutional documents",
+  "certification_rule": "The course must meet all institutional criteria before certification.",
+  "sections": {
+    "1 Introduction": [
+      "Welcome/purpose/orientation",
+      "Official updated syllabus",
+      "Institutional work plan by week"
+    ],
+    "2 Content": [
+      "ARD: Acquire, Reinforce, Demonstrate",
+      "Module introduction + key concepts",
+      "At least one measurable aligned objective per module",
+      "Original aligned instructional content",
+      "Multiple formats",
+      "Current discipline content/resources",
+      "Plurality of authors/voices/sources",
+      "Updated accessible external links/permalinks"
+    ],
+    "3 Learning and interaction": [
+      "Varied learning activities",
+      "Activities aligned to objectives",
+      "Clear instructions/expectations/evaluation criteria",
+      "Regular substantive student-instructor interaction"
+    ],
+    "4 Assessment": [
+      "Assess stated objectives",
+      "Varied assessments",
+      "Academic integrity",
+      "Clear instructions/criteria",
+      "Platform/authorized tools",
+      "At least one proctored or authentic assessment"
+    ],
+    "5 Technical/legal": [
+      "Institutional template",
+      "Intuitive navigation/usability",
+      "WCAG accessibility",
+      "Copyright/intellectual property/originality validation"
+    ]
+  },
+  "annex3": [
+    "ADA/504/508/WCAG accessibility certification",
+    "Copyright and intellectual property certification"
+  ],
+  "annex4": "Distance course design certification only after compliance and technical/administrative checks."
+}
