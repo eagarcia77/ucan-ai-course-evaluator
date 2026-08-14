@@ -1,0 +1,31 @@
+{
+  "name": "Modelo instruccional 5E",
+  "phases": [
+    {
+      "phase": "Engage",
+      "purpose": "Activar conocimientos previos, despertar interés y conectar el contenido con una necesidad, problema o experiencia significativa.",
+      "evidence_examples": ["pregunta provocadora","caso breve","imagen o video disparador","sondeo diagnóstico","situación auténtica"]
+    },
+    {
+      "phase": "Explore",
+      "purpose": "Permitir que el estudiante investigue, manipule información, compare, pruebe ideas o participe en una experiencia antes de recibir una explicación formal completa.",
+      "evidence_examples": ["actividad de indagación","análisis de casos","simulación","exploración de datos","discusión inicial basada en evidencia"]
+    },
+    {
+      "phase": "Explain",
+      "purpose": "Formalizar conceptos, vocabulario, teorías y procedimientos; integrar la explicación docente con la explicación del estudiante.",
+      "evidence_examples": ["contenido instruccional","microlección","lectura guiada","video explicativo","mapa conceptual","explicación del estudiante"]
+    },
+    {
+      "phase": "Elaborate",
+      "purpose": "Extender, aplicar y transferir lo aprendido a nuevos contextos, problemas o productos.",
+      "evidence_examples": ["proyecto","estudio de caso complejo","aplicación profesional","diseño de producto","resolución de problema auténtico"]
+    },
+    {
+      "phase": "Evaluate",
+      "purpose": "Obtener evidencia del aprendizaje mediante evaluación formativa y/o sumativa alineada con los objetivos.",
+      "evidence_examples": ["rúbrica","auto-evaluación","prueba","producto final","reflexión","retroalimentación"]
+    }
+  ],
+  "evaluation_rule": "La IA debe verificar presencia, función pedagógica, alineación y secuencia; no basta con localizar etiquetas o actividades con el mismo nombre."
+}
